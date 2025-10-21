@@ -1,0 +1,102 @@
+[
+  {
+    "user": "microsoft",
+    "repo": "playwright",
+    "url": "https://github.com/microsoft/playwright"
+  },
+  {
+    "user": "browser-use",
+    "repo": "browser-use",
+    "url": "https://github.com/browser-use/browser-use"
+  },
+  {
+    "user": "microsoft",
+    "repo": "playwright-mcp",
+    "url": "https://github.com/microsoft/playwright-mcp"
+  },
+  {
+    "user": "apify",
+    "repo": "crawlee",
+    "url": "https://github.com/apify/crawlee"
+  },
+  {
+    "user": "browserbase",
+    "repo": "stagehand",
+    "url": "https://github.com/browserbase/stagehand"
+  },
+  {
+    "user": "checkly",
+    "repo": "headless-recorder",
+    "url": "https://github.com/checkly/headless-recorder"
+  },
+  {
+    "user": "Skyvern-AI",
+    "repo": "skyvern",
+    "url": "https://github.com/Skyvern-AI/skyvern"
+  },
+  {
+    "user": "microsoft",
+    "repo": "playwright-python",
+    "url": "https://github.com/microsoft/playwright-python"
+  },
+  {
+    "user": "getmaxun",
+    "repo": "maxun",
+    "url": "https://github.com/getmaxun/maxun"
+  },
+  {
+    "user": "browserless",
+    "repo": "browserless",
+    "url": "https://github.com/browserless/browserless"
+  },
+  {
+    "user": "nanobrowser",
+    "repo": "nanobrowser",
+    "url": "https://github.com/nanobrowser/nanobrowser"
+  },
+  {
+    "user": "lightpanda-io",
+    "repo": "browser",
+    "url": "https://github.com/lightpanda-io/browser"
+  },
+  {
+    "user": "artilleryio",
+    "repo": "artillery",
+    "url": "https://github.com/artilleryio/artillery"
+  },
+  {
+    "user": "D4Vinci",
+    "repo": "Scrapling",
+    "url": "https://github.com/D4Vinci/Scrapling"
+  },
+  {
+    "user": "apify",
+    "repo": "crawlee-python",
+    "url": "https://github.com/apify/crawlee-python"
+  },
+  {
+    "user": "mishushakov",
+    "repo": "llm-scraper",
+    "url": "https://github.com/mishushakov/llm-scraper"
+  },
+  {
+    "user": "autoscrape-labs",
+    "repo": "pydoll",
+    "url": "https://github.com/autoscrape-labs/pydoll"
+  },
+  {
+    "user": "antiwork",
+    "repo": "shortest",
+    "url": "https://github.com/antiwork/shortest"
+  },
+  {
+    "user": "jaypyles",
+    "repo": "Scraperr",
+    "url": "https://github.com/jaypyles/Scraperr"
+  },
+  {
+    "user": "extension-js",
+    "repo": "extension.js",
+    "url": "https://github.com/extension-js/extension.js"
+  }
+]

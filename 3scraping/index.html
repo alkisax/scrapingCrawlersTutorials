@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>scraping1</title>
+</head>
+<body>
+  <h1>Test site</h1>
+  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam incidunt est nesciunt nisi at laudantium qui reprehenderit. Ducimus, at fugiat ad maiores eveniet consequatur nostrum officiis dolore dignissimos ut dolorem!</p>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, quisquam voluptas inventore minus tempora distinctio quis iure. Ut molestiae, libero delectus unde voluptate eveniet doloremque aliquid, in suscipit voluptas vitae?</p>
+  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga inventore maxime saepe aspernatur, nostrum optio. Cupiditate architecto necessitatibus cum numquam dignissimos nam quo doloribus, eaque magnam adipisci cumque minima soluta!</p>
+  <img class="owl" src="./owl-sword-logo1 - Αντιγραφή.jpg" alt="" style="height: auto; max-width: 25%;">
+  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem modi voluptates neque tenetur accusamus doloribus laudantium nisi aspernatur recusandae porro officia explicabo odio dolore dolores blanditiis, eum sapiente aliquid quae?</p>
+  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio maxime fugiat laudantium culpa. Quas nesciunt et aperiam iste ea, voluptatum molestias tempore ipsam tenetur cumque ut nemo porro voluptate odio.</p>
+
+  <script>
+    const h2 = document.createElement('h2')
+
+    h2.textContent = 'Dynamicaly created element'
+
+    // insertAdjacentElement(position, element). position ex.: 'beforebegin',  'afterbegin', 'beforeend', 'afterend'
+    document.querySelector('h1').insertAdjacentElement('afterEnd', h2)
+  </script>
+</body>
+</html>
