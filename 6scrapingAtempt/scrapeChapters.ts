@@ -3,6 +3,7 @@ import playwright from 'playwright'
 import fs from 'fs'
 
 interface CurrentContext {
+  book: string
   chapter: number
   title: string
   subtitleA: string | null
@@ -16,7 +17,7 @@ const CH1URL='https://www.marxists.org/archive/marx/works/1867-c1/ch01.htm'
 const CH3URL='https://www.marxists.org/archive/marx/works/1867-c1/ch03.htm'
 const CH15URL='https://www.marxists.org/archive/marx/works/1867-c1/ch15.htm'
 
-async function main() {
+const scrapeChapter = async (url:string, book: string,chapterNum: number): Promise<void> => {
   try {
     
     /* 1️⃣ create random agent */
@@ -33,11 +34,11 @@ async function main() {
     // ορίζω βασικά settings και εππισκέυτομαι την σελίδα
     await page.setDefaultNavigationTimeout(30000)
     await page.setViewportSize({ width: 800, height: 600 })
-    await page.goto(CH1URL)
+    await page.goto(url)
     
     // ✅ capture browser logs
     page.on('console', msg => {
-      console.log('[BROWSER]', msg.text())
+      // console.log('[BROWSER]', msg.text())
     })
 
     // console.log(agent);    
@@ -56,13 +57,15 @@ async function main() {
      */
     // στο index κάναμε page.$$eval(selector, callback) αυτό μου επέστρεφε μια λίστα με όλα τα <a> και μας επέτρεπε να κάνουμε map() απευθείας πάνω σε αυτά. Εδώ χρειάζομαι κάτι πιο συνθέτο, πρέπει να διατρέξουμε ολόκληρο το σώμα της σελίδας (h3, h4, h5, h6, p) και για αυτό θα έχω page.evaluate(() => {}) που μου φαίρνει όλο το σώμα του κειμένου και μου επιτρέπει πράγματα όπως current.title, current.subtitleA γιατί έχει μνήμη
     // το page είναι ένα tab του Browser και το document είναι το DOM
-    const paragraphs = await page.evaluate(() => {
+    const paragraphs = await page.evaluate(
+      ({ book, chapterNum }: { book: string; chapterNum: number }) => {
       const nodes = Array.from(document.body.querySelectorAll('h3, h4, h5, h6, p, blockquote, table'))
       const data = []
 
       // αυτή είναι μια μεταβλητή που κρατάει σαν χάρτης το που μέσα στο κείμενο βρισκόμαστε. Θα αρχικοποιήσουμε το json της παραγράφου που θα φυλάξουμε αργότερα
       let current: CurrentContext = {
-        chapter: 1,
+        book: book,
+        chapter: chapterNum,
         title: '', // τίτλος ενότητας
         subtitleA: null, // υπότιτλος ενότητας  
         subtitleB: null, // υποκεφάλαιο
@@ -101,7 +104,7 @@ async function main() {
               hasFootnotes: [],
               paragraphNumber: null
             })
-            console.log("found table: ", rows);
+            // console.log("found table: ", rows);
             
             continue
           }
@@ -169,7 +172,7 @@ async function main() {
               text,
               hasFootnotes: footnotes
             })
-            console.log('found paragraph-like: ', current);
+            // console.log('found paragraph-like: ', current);
             
             continue
           }
@@ -188,7 +191,7 @@ async function main() {
               text,
               hasFootnotes: footnotes
             })
-            console.log('found quote: ', text.slice(0, 80));
+            // console.log('found quote: ', text.slice(0, 80));
             continue
           }
 
@@ -208,7 +211,7 @@ async function main() {
         if (tag === 'h6') {
           // maybe "1." or "a." type
           current.subtitleC = el.textContent.trim()
-          console.log('found h6', current.subtitleC);
+          // console.log('found h6', current.subtitleC);
           continue
         }
 
@@ -217,7 +220,7 @@ async function main() {
         if (tag === 'h5' && el.textContent?.match(/^[A-Z]\./i)) {
           current.subtitleA = el.textContent.trim()
           current.subtitleC = current.subtitleD = null
-          console.log('found h5', current.subtitleA);
+          // console.log('found h5', current.subtitleA);
           continue
         }
 
@@ -225,7 +228,7 @@ async function main() {
         if (tag === 'h4') {
           current.subtitleB = el.textContent?.replace(/\s+/g, ' ').trim() || null
           current.subtitleC = current.subtitleD = null
-          console.log('found h4', current.subtitleB);
+          // console.log('found h4', current.subtitleB);
           continue
         }
 
@@ -233,7 +236,7 @@ async function main() {
         // Αν το <h3> περιέχει τη λέξη “Chapter”, τότε ενημερώνει το current.title
         if (tag === 'h3' && el.textContent?.match(/Chapter/i)) {
           current.title = el.textContent.trim()
-          console.log('found h3', current.title);
+          // console.log('found h3', current.title);
           continue
         }
 
@@ -252,14 +255,14 @@ async function main() {
 
       return data
 
-    })
-
+    },{book, chapterNum})
 
     /* 5️⃣ store Data into file */
-    fs.writeFileSync('chapter1.json', JSON.stringify(paragraphs, null, 2), 'utf-8')
+    fs.mkdirSync('book1', { recursive: true })
+    fs.writeFileSync(`book1/chapter${chapterNum}.json`, JSON.stringify(paragraphs, null, 2), 'utf-8')
 
-    // console.log(chapterLinks.slice(0, 10));
-    console.dir(paragraphs.slice(28, 30), { depth: null })
+    // // console.log(chapterLinks.slice(0, 10));
+    // console.dir(paragraphs.slice(28, 30), { depth: null })
 
     /* close browser */
     await browser.close()
@@ -269,7 +272,41 @@ async function main() {
       console.error("Σφάλμα:", error.message)      
     }
   }
+
 }
 
-main()
+// read top lvl chapter links from file created by 6scrapingAtempt\scrapeIndex.ts
+interface Chapter {
+  chNum: number
+  text: string
+  url: string
+}
+
+const getTopLevelChapters = (): string[] => {
+  const raw = fs.readFileSync('./chapterLinks.json', 'utf-8')
+  const all = JSON.parse(raw)
+  return all.map((c: Chapter) => c.url)
+}
+
+// const urls: string[] = getTopLevelChapters()
+const urls = getTopLevelChapters().slice(1, 3) // for debug
+
+// iterate
+const iterate = async ( urls: string[], book: string): Promise<void> => {
+  let i = 0
+  for (const url of urls) {
+    // // console.log(`📖 Scraping chapter ${i} book:${book}`)
+    try {
+      console.log(`⛏️ book: ${book}, chapter ${i}, url: ${url}`);
+      
+      await scrapeChapter(url, 'Book 1', i)
+      i++
+    } catch (error) {
+      if (error instanceof Error)
+      console.error(`❌ Failed chapter: ${i}`, error.message)
+    }
+  }
+}
+
+iterate(urls, 'book 1')
 

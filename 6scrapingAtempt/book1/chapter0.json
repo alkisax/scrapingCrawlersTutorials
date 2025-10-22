@@ -1,6 +1,7 @@
 [
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "",
     "subtitleA": null,
     "subtitleB": null,
@@ -12,7 +13,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "Part I: Commodities and Money",
@@ -24,7 +26,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "Part I: Commodities and Money",
@@ -36,7 +39,8 @@
     "paragraphNumber": null
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "Part I: Commodities and Money",
@@ -48,7 +52,8 @@
     "paragraphNumber": null
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "Part I: Commodities and Money",
@@ -60,7 +65,8 @@
     "paragraphNumber": null
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "Part I: Commodities and Money",
@@ -72,7 +78,8 @@
     "paragraphNumber": null
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "Part I: Commodities and Money",
@@ -84,7 +91,8 @@
     "paragraphNumber": null
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "Part I: Commodities and Money",
@@ -96,7 +104,8 @@
     "paragraphNumber": null
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "Part I: Commodities and Money",
@@ -108,7 +117,8 @@
     "paragraphNumber": null
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "Part I: Commodities and Money",
@@ -120,7 +130,8 @@
     "paragraphNumber": null
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "Part I: Commodities and Money",
@@ -132,7 +143,8 @@
     "paragraphNumber": null
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "Part I: Commodities and Money",
@@ -144,7 +156,8 @@
     "paragraphNumber": null
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "Part I: Commodities and Money",
@@ -156,7 +169,8 @@
     "paragraphNumber": null
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "Part I: Commodities and Money",
@@ -168,7 +182,8 @@
     "paragraphNumber": null
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "Part I: Commodities and Money",
@@ -180,7 +195,8 @@
     "paragraphNumber": null
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "Part I: Commodities and Money",
@@ -192,7 +208,8 @@
     "paragraphNumber": null
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "Part I: Commodities and Money",
@@ -204,7 +221,8 @@
     "paragraphNumber": null
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "Part I: Commodities and Money",
@@ -216,7 +234,8 @@
     "paragraphNumber": null
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "Part I: Commodities and Money",
@@ -228,7 +247,8 @@
     "paragraphNumber": null
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "Part I: Commodities and Money",
@@ -240,7 +260,8 @@
     "paragraphNumber": null
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "Part I: Commodities and Money",
@@ -252,7 +273,8 @@
     "paragraphNumber": null
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "Part I: Commodities and Money",
@@ -264,7 +286,8 @@
     "paragraphNumber": null
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE TWO FACTORS OF A COMMODITY: USE-VALUE AND VALUE (THE SUBSTANCE OF VALUE AND THE MAGNITUDE OF VALUE)",
@@ -278,7 +301,8 @@
     ]
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE TWO FACTORS OF A COMMODITY: USE-VALUE AND VALUE (THE SUBSTANCE OF VALUE AND THE MAGNITUDE OF VALUE)",
@@ -292,7 +316,8 @@
     ]
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE TWO FACTORS OF A COMMODITY: USE-VALUE AND VALUE (THE SUBSTANCE OF VALUE AND THE MAGNITUDE OF VALUE)",
@@ -306,7 +331,8 @@
     ]
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE TWO FACTORS OF A COMMODITY: USE-VALUE AND VALUE (THE SUBSTANCE OF VALUE AND THE MAGNITUDE OF VALUE)",
@@ -321,7 +347,8 @@
     ]
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE TWO FACTORS OF A COMMODITY: USE-VALUE AND VALUE (THE SUBSTANCE OF VALUE AND THE MAGNITUDE OF VALUE)",
@@ -336,7 +363,8 @@
     ]
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE TWO FACTORS OF A COMMODITY: USE-VALUE AND VALUE (THE SUBSTANCE OF VALUE AND THE MAGNITUDE OF VALUE)",
@@ -348,7 +376,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE TWO FACTORS OF A COMMODITY: USE-VALUE AND VALUE (THE SUBSTANCE OF VALUE AND THE MAGNITUDE OF VALUE)",
@@ -360,7 +389,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE TWO FACTORS OF A COMMODITY: USE-VALUE AND VALUE (THE SUBSTANCE OF VALUE AND THE MAGNITUDE OF VALUE)",
@@ -372,7 +402,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE TWO FACTORS OF A COMMODITY: USE-VALUE AND VALUE (THE SUBSTANCE OF VALUE AND THE MAGNITUDE OF VALUE)",
@@ -384,7 +415,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE TWO FACTORS OF A COMMODITY: USE-VALUE AND VALUE (THE SUBSTANCE OF VALUE AND THE MAGNITUDE OF VALUE)",
@@ -398,7 +430,8 @@
     ]
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE TWO FACTORS OF A COMMODITY: USE-VALUE AND VALUE (THE SUBSTANCE OF VALUE AND THE MAGNITUDE OF VALUE)",
@@ -410,7 +443,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE TWO FACTORS OF A COMMODITY: USE-VALUE AND VALUE (THE SUBSTANCE OF VALUE AND THE MAGNITUDE OF VALUE)",
@@ -422,7 +456,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE TWO FACTORS OF A COMMODITY: USE-VALUE AND VALUE (THE SUBSTANCE OF VALUE AND THE MAGNITUDE OF VALUE)",
@@ -434,7 +469,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE TWO FACTORS OF A COMMODITY: USE-VALUE AND VALUE (THE SUBSTANCE OF VALUE AND THE MAGNITUDE OF VALUE)",
@@ -446,7 +482,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE TWO FACTORS OF A COMMODITY: USE-VALUE AND VALUE (THE SUBSTANCE OF VALUE AND THE MAGNITUDE OF VALUE)",
@@ -458,7 +495,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE TWO FACTORS OF A COMMODITY: USE-VALUE AND VALUE (THE SUBSTANCE OF VALUE AND THE MAGNITUDE OF VALUE)",
@@ -470,7 +508,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE TWO FACTORS OF A COMMODITY: USE-VALUE AND VALUE (THE SUBSTANCE OF VALUE AND THE MAGNITUDE OF VALUE)",
@@ -486,7 +525,8 @@
     ]
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE TWO FACTORS OF A COMMODITY: USE-VALUE AND VALUE (THE SUBSTANCE OF VALUE AND THE MAGNITUDE OF VALUE)",
@@ -498,7 +538,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE TWO FACTORS OF A COMMODITY: USE-VALUE AND VALUE (THE SUBSTANCE OF VALUE AND THE MAGNITUDE OF VALUE)",
@@ -512,7 +553,8 @@
     ]
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE TWO-FOLD CHARACTER OF THE LABOUR EMBODIED IN COMMODITIES",
@@ -524,7 +566,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE TWO-FOLD CHARACTER OF THE LABOUR EMBODIED IN COMMODITIES",
@@ -536,7 +579,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE TWO-FOLD CHARACTER OF THE LABOUR EMBODIED IN COMMODITIES",
@@ -548,7 +592,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE TWO-FOLD CHARACTER OF THE LABOUR EMBODIED IN COMMODITIES",
@@ -560,7 +605,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE TWO-FOLD CHARACTER OF THE LABOUR EMBODIED IN COMMODITIES",
@@ -572,7 +618,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE TWO-FOLD CHARACTER OF THE LABOUR EMBODIED IN COMMODITIES",
@@ -584,7 +631,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE TWO-FOLD CHARACTER OF THE LABOUR EMBODIED IN COMMODITIES",
@@ -596,7 +644,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE TWO-FOLD CHARACTER OF THE LABOUR EMBODIED IN COMMODITIES",
@@ -610,7 +659,8 @@
     ]
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE TWO-FOLD CHARACTER OF THE LABOUR EMBODIED IN COMMODITIES",
@@ -622,7 +672,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE TWO-FOLD CHARACTER OF THE LABOUR EMBODIED IN COMMODITIES",
@@ -634,7 +685,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE TWO-FOLD CHARACTER OF THE LABOUR EMBODIED IN COMMODITIES",
@@ -649,7 +701,8 @@
     ]
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE TWO-FOLD CHARACTER OF THE LABOUR EMBODIED IN COMMODITIES",
@@ -661,7 +714,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE TWO-FOLD CHARACTER OF THE LABOUR EMBODIED IN COMMODITIES",
@@ -673,7 +727,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE TWO-FOLD CHARACTER OF THE LABOUR EMBODIED IN COMMODITIES",
@@ -685,7 +740,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE TWO-FOLD CHARACTER OF THE LABOUR EMBODIED IN COMMODITIES",
@@ -697,7 +753,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE TWO-FOLD CHARACTER OF THE LABOUR EMBODIED IN COMMODITIES",
@@ -709,7 +766,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE TWO-FOLD CHARACTER OF THE LABOUR EMBODIED IN COMMODITIES",
@@ -723,7 +781,8 @@
     ]
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -735,7 +794,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -747,7 +807,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -759,7 +820,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -771,7 +833,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -783,7 +846,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -795,7 +859,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -807,7 +872,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -819,7 +885,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -831,7 +898,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -843,7 +911,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -855,7 +924,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -867,7 +937,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -881,7 +952,8 @@
     ]
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -893,7 +965,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -905,7 +978,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -917,7 +991,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -931,7 +1006,8 @@
     ]
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -943,7 +1019,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -955,7 +1032,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -967,7 +1045,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -979,7 +1058,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -991,7 +1071,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -1005,7 +1086,8 @@
     ]
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -1017,7 +1099,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -1029,7 +1112,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -1041,7 +1125,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -1055,7 +1140,8 @@
     ]
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -1067,7 +1153,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -1079,7 +1166,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -1091,7 +1179,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -1103,7 +1192,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -1117,7 +1207,8 @@
     ]
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -1129,7 +1220,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -1141,7 +1233,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -1153,7 +1246,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -1165,7 +1259,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -1177,7 +1272,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -1189,7 +1285,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -1201,7 +1298,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -1215,7 +1313,8 @@
     ]
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -1227,7 +1326,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -1239,7 +1339,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -1251,7 +1352,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -1263,7 +1365,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -1275,7 +1378,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -1287,7 +1391,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -1299,7 +1404,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -1311,7 +1417,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -1323,7 +1430,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -1335,7 +1443,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -1347,7 +1456,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -1359,7 +1469,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -1371,7 +1482,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -1385,7 +1497,8 @@
     ]
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -1397,7 +1510,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -1409,7 +1523,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -1421,7 +1536,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -1433,7 +1549,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -1447,7 +1564,8 @@
     ]
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -1459,7 +1577,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -1473,7 +1592,8 @@
     ]
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -1485,7 +1605,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -1497,7 +1618,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -1509,7 +1631,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -1521,7 +1644,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -1533,7 +1657,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -1545,7 +1670,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -1557,7 +1683,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -1569,7 +1696,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -1629,7 +1757,8 @@
     "paragraphNumber": null
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -1670,7 +1799,8 @@
     "paragraphNumber": null
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -1682,7 +1812,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -1694,7 +1825,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -1706,7 +1838,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -1718,7 +1851,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -1730,7 +1864,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -1742,7 +1877,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -1754,7 +1890,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -1766,7 +1903,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -1778,7 +1916,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -1790,7 +1929,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -1802,7 +1942,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -1814,7 +1955,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -1826,7 +1968,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -1838,7 +1981,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -1852,7 +1996,8 @@
     ]
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -1864,7 +2009,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -1876,7 +2022,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": null,
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -1888,7 +2035,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": "D. The Money-Form",
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -1962,7 +2110,8 @@
     "paragraphNumber": null
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": "D. The Money-Form",
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -2010,7 +2159,8 @@
     "paragraphNumber": null
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": "D. The Money-Form",
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -2022,7 +2172,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": "D. The Money-Form",
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -2034,7 +2185,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": "D. The Money-Form",
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -2046,7 +2198,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": "D. The Money-Form",
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -2058,7 +2211,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": "D. The Money-Form",
     "subtitleB": "THE FORM OF VALUE OR EXCHANGE VALUE",
@@ -2070,7 +2224,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": "D. The Money-Form",
     "subtitleB": "THE FETISHISM OF COMMODITIES AND THE SECRET THEREOF",
@@ -2084,7 +2239,8 @@
     ]
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": "D. The Money-Form",
     "subtitleB": "THE FETISHISM OF COMMODITIES AND THE SECRET THEREOF",
@@ -2098,7 +2254,8 @@
     ]
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": "D. The Money-Form",
     "subtitleB": "THE FETISHISM OF COMMODITIES AND THE SECRET THEREOF",
@@ -2110,7 +2267,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": "D. The Money-Form",
     "subtitleB": "THE FETISHISM OF COMMODITIES AND THE SECRET THEREOF",
@@ -2122,7 +2280,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": "D. The Money-Form",
     "subtitleB": "THE FETISHISM OF COMMODITIES AND THE SECRET THEREOF",
@@ -2134,7 +2293,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": "D. The Money-Form",
     "subtitleB": "THE FETISHISM OF COMMODITIES AND THE SECRET THEREOF",
@@ -2146,7 +2306,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": "D. The Money-Form",
     "subtitleB": "THE FETISHISM OF COMMODITIES AND THE SECRET THEREOF",
@@ -2160,7 +2321,8 @@
     ]
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": "D. The Money-Form",
     "subtitleB": "THE FETISHISM OF COMMODITIES AND THE SECRET THEREOF",
@@ -2174,7 +2336,8 @@
     ]
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": "D. The Money-Form",
     "subtitleB": "THE FETISHISM OF COMMODITIES AND THE SECRET THEREOF",
@@ -2186,7 +2349,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": "D. The Money-Form",
     "subtitleB": "THE FETISHISM OF COMMODITIES AND THE SECRET THEREOF",
@@ -2198,7 +2362,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": "D. The Money-Form",
     "subtitleB": "THE FETISHISM OF COMMODITIES AND THE SECRET THEREOF",
@@ -2212,7 +2377,8 @@
     ]
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": "D. The Money-Form",
     "subtitleB": "THE FETISHISM OF COMMODITIES AND THE SECRET THEREOF",
@@ -2224,7 +2390,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": "D. The Money-Form",
     "subtitleB": "THE FETISHISM OF COMMODITIES AND THE SECRET THEREOF",
@@ -2238,7 +2405,8 @@
     ]
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": "D. The Money-Form",
     "subtitleB": "THE FETISHISM OF COMMODITIES AND THE SECRET THEREOF",
@@ -2250,7 +2418,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": "D. The Money-Form",
     "subtitleB": "THE FETISHISM OF COMMODITIES AND THE SECRET THEREOF",
@@ -2262,7 +2431,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": "D. The Money-Form",
     "subtitleB": "THE FETISHISM OF COMMODITIES AND THE SECRET THEREOF",
@@ -2274,7 +2444,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": "D. The Money-Form",
     "subtitleB": "THE FETISHISM OF COMMODITIES AND THE SECRET THEREOF",
@@ -2290,7 +2461,8 @@
     ]
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": "D. The Money-Form",
     "subtitleB": "THE FETISHISM OF COMMODITIES AND THE SECRET THEREOF",
@@ -2302,7 +2474,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": "D. The Money-Form",
     "subtitleB": "THE FETISHISM OF COMMODITIES AND THE SECRET THEREOF",
@@ -2314,7 +2487,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": "D. The Money-Form",
     "subtitleB": "THE FETISHISM OF COMMODITIES AND THE SECRET THEREOF",
@@ -2326,7 +2500,8 @@
     "hasFootnotes": []
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": "D. The Money-Form",
     "subtitleB": "THE FETISHISM OF COMMODITIES AND THE SECRET THEREOF",
@@ -2341,7 +2516,8 @@
     ]
   },
   {
-    "chapter": 1,
+    "book": "Book 1",
+    "chapter": 0,
     "title": "Chapter One: Commodities",
     "subtitleA": "D. The Money-Form",
     "subtitleB": "THE FETISHISM OF COMMODITIES AND THE SECRET THEREOF",
