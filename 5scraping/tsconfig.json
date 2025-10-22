@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "types": ["node"],        // ✅ tells TS to include Node built-ins
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "strict": true
+  }
+}
