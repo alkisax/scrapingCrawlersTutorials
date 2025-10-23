@@ -7,7 +7,11 @@
   "scripts": {
     "start": "node scraper.ts",
     "index": "node scrapeIndex.ts",
-    "chapters": "node scrapeChapters.ts",
+    "index2": "node scrapeIndexBook2.ts",
+    "index3": "node scrapeIndexBook3.ts",
+    "scrape:book1": "node scrapeChapters.ts",
+    "scrape:book2": "node scrapeChaptersBook2.ts",
+    "scrape:book3": "node scrapeChaptersBook3.ts",
     "scraper:3": "bash -c 'for run in {1..3}; do node scraper.ts; done'"
   },
   "keywords": [],

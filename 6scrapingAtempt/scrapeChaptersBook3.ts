@@ -195,23 +195,6 @@ const scrapeChapter = async (url:string, book: string,chapterNum: number): Promi
             continue
           }
 
-          // --- detect footnotes ---
-          if ( 
-            el.classList.contains('information')
-          ) {
-            // πιάνουμε το a μέσα στο .info
-            const anchor = el.querySelector('.info a')
-            const footnoteNum = anchor?.getAttribute('name') || null
-
-            data.push({
-              ...current,
-              type: 'text-footnote',
-              paragraphNumber: footnoteNum,
-              text,
-              hasFootnotes: footnotes
-            })
-          }
-
           // --- regular paragraph ---
           paragraphCount++
           data.push({
@@ -275,8 +258,8 @@ const scrapeChapter = async (url:string, book: string,chapterNum: number): Promi
     },{book, chapterNum})
 
     /* 5️⃣ store Data into file */
-    fs.mkdirSync('book1', { recursive: true })
-    fs.writeFileSync(`book1/chapter${chapterNum}.json`, JSON.stringify(paragraphs, null, 2), 'utf-8')
+    fs.mkdirSync('book3', { recursive: true })
+    fs.writeFileSync(`book3/chapter${chapterNum}.json`, JSON.stringify(paragraphs, null, 2), 'utf-8')
 
     // // console.log(chapterLinks.slice(0, 10));
     // console.dir(paragraphs.slice(28, 30), { depth: null })
@@ -300,7 +283,7 @@ interface Chapter {
 }
 
 const getTopLevelChapters = (): string[] => {
-  const raw = fs.readFileSync('./chapterLinks.json', 'utf-8')
+  const raw = fs.readFileSync('./chapterLinks3.json', 'utf-8')
   const all = JSON.parse(raw)
   return all.map((c: Chapter) => c.url)
 }
@@ -316,7 +299,7 @@ const iterate = async ( urls: string[], book: string): Promise<void> => {
     try {
       console.log(`⛏️ book: ${book}, chapter ${i}, url: ${url}`);
       
-      await scrapeChapter(url, 'Book 1', i)
+      await scrapeChapter(url, 'Book 3', i)
       i++
     } catch (error) {
       if (error instanceof Error)
@@ -325,5 +308,5 @@ const iterate = async ( urls: string[], book: string): Promise<void> => {
   }
 }
 
-iterate(urls, 'book 1')
+iterate(urls, 'book 3')
 
