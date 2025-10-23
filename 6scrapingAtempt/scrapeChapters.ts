@@ -1,3 +1,5 @@
+// το ch1 ακολουθούσε διαφορετικό φορματ και του φτιάξαμε δικό του script.
+
 import playwright from 'playwright'
 // import random_useragent from 'random-useragent'
 import fs from 'fs'
@@ -5,10 +7,10 @@ import fs from 'fs'
 interface CurrentContext {
   book: string
   chapter: number
-  title: string
-  subtitleA: string | null
-  subtitleB: string | null
-  subtitleC: string | null
+  chapterTitle: string
+  sectionTitle: string | null
+  subsectionTitle: string | null
+  subsubsectionTitle: string | null
   subtitleD: string | null
 }
 
@@ -45,7 +47,7 @@ const scrapeChapter = async (url:string, book: string,chapterNum: number): Promi
 
     /* 3️⃣ Extract */
     /*
-      <h3> → Τίτλος ενότητας (Section) -index-
+      <h3> → Τίτλος κεφαλαίου (Section) -index-
       <h4> → Υπότιτλος ενότητας -index-
       <h5> → Υποκεφάλαιο (A., B., C., D.) -indexa-
       <h6> → Μικρότερο υποκεφάλαιο (1., 2., a., κλπ) -indexb-
@@ -66,10 +68,10 @@ const scrapeChapter = async (url:string, book: string,chapterNum: number): Promi
       let current: CurrentContext = {
         book: book,
         chapter: chapterNum,
-        title: '', // τίτλος ενότητας
-        subtitleA: null, // υπότιτλος ενότητας  
-        subtitleB: null, // υποκεφάλαιο
-        subtitleC: null, // μικροτερο υποκεφάλαιο
+        chapterTitle: '', // τίτλος Κεφαλαίου
+        sectionTitle: null, // υπότιτλος ενότητας  
+        subsectionTitle: null, // υποκεφάλαιο
+        subsubsectionTitle: null, // μικροτερο υποκεφάλαιο
         subtitleD: null  // μικροτερο υποκεφάλαιο2
       }
 
@@ -82,6 +84,7 @@ const scrapeChapter = async (url:string, book: string,chapterNum: number): Promi
         // αν το tag ξεκινάει με 'h' τότε είναι τίτλος. Με μια σειρά if βλεπουμε το μέγεθος του 'h' και βλέπουμε αν είναι κύριος τίτλος, υπότιτλος, υπότιτλος β
         const tag = el.tagName.toLowerCase()
 
+        // --- paragraph numbering ---
         // when we encounter a new h3, reset paragraph numbering
         if (tag === 'h3') {
           paragraphCount = 0 // reset for new section
@@ -110,6 +113,28 @@ const scrapeChapter = async (url:string, book: string,chapterNum: number): Promi
           }
         }
 
+        // --- FOOTNOTES ---
+        if (tag === 'p' && el.classList.contains('information')) {
+          // πιάνουμε το a μέσα στο .info
+          const anchor = el.querySelector('.info a')
+          const footnoteNum = anchor?.getAttribute('name')?.replace(/^n/i, '') || null
+          const text = el.textContent?.replace(/\s+/g, ' ').trim() || ''
+          if (text) {
+            data.push({
+              ...current,
+              sectionTitle: null,
+              subsectionTitle: null,
+              subsubsectionTitle: null,
+              subtitleD: null,
+              type: 'text-footnote',
+              paragraphNumber: footnoteNum,
+              text,
+              hasFootnotes: []
+            })
+          }
+          continue  // 👈 prevent this element from going further
+        }
+
         // --- PARAGRAPHS ---
         // information = υποσημείωση
         if (tag === 'p' && !el.classList.contains('information') && !el.classList.contains('footer')) {
@@ -123,6 +148,7 @@ const scrapeChapter = async (url:string, book: string,chapterNum: number): Promi
             if (match) footnotes.push(match[1])
           })
 
+          // --- index ---
           // στην αρχή της σελίδας έχουμε πολλά <p><a></p> αυτά είναι τα περιεχόμενα
           // πολές υποσημείωσεις έχουν λίνκ προς την υποσημείωση στο τέλος της σελίδας. Aυτα που είναι μέσα σε sup πρέπει να αγνοούντε πχ <sup class="enote"><a href="#34">[34]</a></sup>
           // .querySelectorAll(':scope > a')direct children <a>. Και οχι 'a' γιατι θέλουμε να αποφύγουμε τα <p><sup><a></a><sup><p>
@@ -195,23 +221,6 @@ const scrapeChapter = async (url:string, book: string,chapterNum: number): Promi
             continue
           }
 
-          // --- detect footnotes ---
-          if ( 
-            el.classList.contains('information')
-          ) {
-            // πιάνουμε το a μέσα στο .info
-            const anchor = el.querySelector('.info a')
-            const footnoteNum = anchor?.getAttribute('name') || null
-
-            data.push({
-              ...current,
-              type: 'text-footnote',
-              paragraphNumber: footnoteNum,
-              text,
-              hasFootnotes: footnotes
-            })
-          }
-
           // --- regular paragraph ---
           paragraphCount++
           data.push({
@@ -226,46 +235,55 @@ const scrapeChapter = async (url:string, book: string,chapterNum: number): Promi
         // --- HEADLINES ---
         // <h6> → Μικρότερο υποκεφάλαιο (1., 2., a., κλπ) -indexb-
         if (tag === 'h6') {
-          // maybe "1." or "a." type
-          current.subtitleC = el.textContent.trim()
-          // console.log('found h6', current.subtitleC);
+          current.subsubsectionTitle = el.textContent.trim()
+          console.log('found h6', current.subsubsectionTitle);
           continue
         }
 
-        // ξεκινάει με Α-Z, literal '.' case insensitive. 
         // <h5> → Υποκεφάλαιο (A., B., C., D.) -indexa-
-        if (tag === 'h5' && el.textContent?.match(/^[A-Z]\./i)) {
-          current.subtitleA = el.textContent.trim()
-          current.subtitleC = current.subtitleD = null
-          // console.log('found h5', current.subtitleA);
+        // ξεκινάει με Α-Z, literal '.' case insensitive. 
+        // if (tag === 'h5' && el.textContent?.match(/^[A-Z]\./i)) {
+        if (tag === 'h5') {
+          current.subsectionTitle = el.textContent.trim()
+          current.subsubsectionTitle = current.subtitleD = null
+          console.log('found h5', current.subsectionTitle);
           continue
         }
 
         // <h4> → Υπότιτλος ενότητας -index-
         if (tag === 'h4') {
-          current.subtitleB = el.textContent?.replace(/\s+/g, ' ').trim() || null
-          current.subtitleC = current.subtitleD = null
-          // console.log('found h4', current.subtitleB);
-          continue
-        }
-
-        // <h3> → Τίτλος ενότητας (Section) -index-
-        // Αν το <h3> περιέχει τη λέξη “Chapter”, τότε ενημερώνει το current.title
-        if (tag === 'h3' && el.textContent?.match(/Chapter/i)) {
-          current.title = el.textContent.trim()
-          // console.log('found h3', current.title);
+          current.sectionTitle  = el.textContent?.trim()
+          current.subsectionTitle  = current.subsubsectionTitle = current.subtitleD = null
+          console.log('found h4', current.subsectionTitle);
           continue
         }
 
         // Αν είναι <h3> αλλά περιέχει τη λέξη “SECTION”, τότε δεν αλλάζεις τον title. Απλώς μηδενίζεις τα subtitles
         if (tag === 'h3' && /SECTION/i.test(el.textContent || '')) {
-          current.subtitleB = current.subtitleC = current.subtitleD = null
+          paragraphCount = 0
+          current.subsectionTitle = current.subsubsectionTitle = current.subtitleD = null
+          console.log('found h3 section marker', el.textContent.trim())
+        }
+
+        // <h3> → Τίτλος ενότητας (Section) -index-
+        // Αν το <h3> περιέχει τη λέξη “Chapter”, τότε ενημερώνει το current.title
+        if (tag === 'h3' && el.textContent?.match(/Chapter/i)) {
+          current.chapterTitle = el.textContent.trim()
+          console.log('found h3', current.chapterTitle);
+          continue
+        }
+
+        // --- Reset when entering the Footnotes section ---
+        if (tag === 'h3' && el.textContent?.match(/Footnotes/i)) {
+          current.sectionTitle = current.subsectionTitle = current.subsubsectionTitle = current.subtitleD = null
+          console.log('found h3 Footnotes section');
+          continue
         }
 
         // ενα γενικό fallback αν δεν έχει βρεί τίτλο ακόμα
-        if (!current.title) {
+        if (!current.chapterTitle) {
           const titleTag = document.querySelector('title')?.textContent?.trim()
-          if (titleTag) current.title = titleTag
+          if (titleTag) current.chapterTitle = titleTag
         }
         
       }
@@ -300,23 +318,23 @@ interface Chapter {
 }
 
 const getTopLevelChapters = (): string[] => {
-  const raw = fs.readFileSync('./chapterLinks.json', 'utf-8')
+  const raw = fs.readFileSync('./chapterLinks.json', 'utf-8') // 👈👈👈
   const all = JSON.parse(raw)
   return all.map((c: Chapter) => c.url)
 }
 
 const urls: string[] = getTopLevelChapters()
-// const urls = getTopLevelChapters().slice(1, 3) // for debug
+// const urls = getTopLevelChapters().slice(3, 6) // 👈 for debug
 
 // iterate
 const iterate = async ( urls: string[], book: string): Promise<void> => {
-  let i = 0
+  let i = 1 // 👈👈
   for (const url of urls) {
     // // console.log(`📖 Scraping chapter ${i} book:${book}`)
     try {
       console.log(`⛏️ book: ${book}, chapter ${i}, url: ${url}`);
       
-      await scrapeChapter(url, 'Book 1', i)
+      await scrapeChapter(url, `${book}`, i)
       i++
     } catch (error) {
       if (error instanceof Error)
